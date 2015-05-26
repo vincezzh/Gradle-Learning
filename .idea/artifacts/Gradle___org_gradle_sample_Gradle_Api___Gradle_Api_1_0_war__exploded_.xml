@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : org.gradle.sample:Gradle-Api : Gradle-Api-1.0.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gradle-Api/exploded/Gradle-Api-1.0.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/Gradle-Api" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Gradle-Api/web/Web Gradle : Gradle-Api-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Gradle-Api" />
+          <element id="dir-copy" path="$PROJECT_DIR$/Gradle-Api/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.12" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.1.6.RELEASE" />
+          <element id="archive" name="org.gradle.sample-Gradle-Business-1.0.jar">
+            <element id="module-output" name="Gradle-Business" />
+            <element id="dir-copy" path="$PROJECT_DIR$/Gradle-Business/build/resources/main" />
+          </element>
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Gradle-Api/exploded/Gradle-Api-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

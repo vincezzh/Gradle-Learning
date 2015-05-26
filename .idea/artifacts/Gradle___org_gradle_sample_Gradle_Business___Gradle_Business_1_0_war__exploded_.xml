@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : org.gradle.sample:Gradle-Business : Gradle-Business-1.0.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gradle-Business/exploded/Gradle-Business-1.0.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/Gradle-Business" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Gradle-Business/web/Web Gradle : Gradle-Business-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Gradle-Business" />
+          <element id="dir-copy" path="$PROJECT_DIR$/Gradle-Business/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.12" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Gradle-Business/exploded/Gradle-Business-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

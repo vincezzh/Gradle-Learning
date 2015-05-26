@@ -1,0 +1,34 @@
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'jetty'
+    group = 'org.gradle.sample'
+    version = '1.0'
+    sourceCompatibility = 1.8
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'org.slf4j:slf4j-api:1.7.12'
+        testCompile 'junit:junit:4.11'
+    }
+}
+
+project(':Gradle-Api') {
+    apply plugin: 'war'
+
+    dependencies {
+        compile project(':Gradle-Business')
+        compile 'javax.servlet:javax.servlet-api:3.1.0'
+        compile 'org.springframework:spring-webmvc:4.1.6.RELEASE'
+    }
+}
+
+project(':Gradle-Business') {
+    dependencies {
+        compile 'org.springframework:spring-core:4.1.6.RELEASE'
+    }
+}

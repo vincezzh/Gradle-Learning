@@ -12,6 +12,7 @@ subprojects {
     }
 
     dependencies {
+        compile 'org.springframework:spring-core:4.1.6.RELEASE'
         compile 'org.slf4j:slf4j-api:1.7.12'
         testCompile 'junit:junit:4.11'
     }
@@ -24,11 +25,21 @@ project(':Gradle-Api') {
         compile project(':Gradle-Business')
         compile 'javax.servlet:javax.servlet-api:3.1.0'
         compile 'org.springframework:spring-webmvc:4.1.6.RELEASE'
+        compile 'com.fasterxml.jackson.core:jackson-core:2.5.0'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.5.0'
+        compile 'com.fasterxml.jackson.core:jackson-annotations:2.5.0'
     }
 }
 
 project(':Gradle-Business') {
     dependencies {
-        compile 'org.springframework:spring-core:4.1.6.RELEASE'
+        compile project(':Gradle-Dao')
+        compile 'org.springframework:spring-beans:4.1.6.RELEASE'
+    }
+}
+
+project(':Gradle-Dao') {
+    dependencies {
+        compile 'org.springframework.data:spring-data-mongodb:1.7.0.RELEASE'
     }
 }

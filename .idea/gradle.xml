@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Gradle-Api" />
             <option value="$PROJECT_DIR$/Gradle-Business" />
+            <option value="$PROJECT_DIR$/Gradle-Dao" />
           </set>
         </option>
       </GradleProjectSettings>

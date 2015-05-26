@@ -4,3 +4,5 @@ include 'Gradle-Api'
 
 include 'Gradle-Business'
 
+include 'Gradle-Dao'
+

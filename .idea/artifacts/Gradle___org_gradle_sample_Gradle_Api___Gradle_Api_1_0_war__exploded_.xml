@@ -26,7 +26,19 @@
             <element id="module-output" name="Gradle-Business" />
             <element id="dir-copy" path="$PROJECT_DIR$/Gradle-Business/build/resources/main" />
           </element>
+          <element id="archive" name="org.gradle.sample-Gradle-Dao-1.0.jar">
+            <element id="module-output" name="Gradle-Dao" />
+            <element id="dir-copy" path="$PROJECT_DIR$/Gradle-Dao/build/resources/main" />
+          </element>
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-mongodb:1.7.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.10.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.mongodb:mongo-java-driver:2.13.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.10" />
           <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.5.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.5.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gradle-Api/Gradle-Api.iml" filepath="$PROJECT_DIR$/Gradle-Api/Gradle-Api.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gradle-Business/Gradle-Business.iml" filepath="$PROJECT_DIR$/Gradle-Business/Gradle-Business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gradle-Dao/Gradle-Dao.iml" filepath="$PROJECT_DIR$/Gradle-Dao/Gradle-Dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gradle-Learning.iml" filepath="$PROJECT_DIR$/Gradle-Learning.iml" />
     </modules>
   </component>

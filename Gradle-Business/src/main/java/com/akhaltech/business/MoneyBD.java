@@ -34,6 +34,6 @@ public class MoneyBD {
         customerDao.find();
         customerDao.update();
         customerDao.find();
-//        customerDao.delete();
+        customerDao.delete();
     }
 }
